@@ -1,0 +1,30 @@
+.contact-box {
+    direction: rtl;}
+h1,pre{color: #5e622c;font-size: 50px;;}/*بيتحكم فى الكلام */
+.top-navmain{background-image: url(images/download\ \(2\).jpg);width:100%;height:300px; }
+.top-nav2{ display:flex; justify-content:center; align-items:center; gap: 20px;  }
+.top-nav2 a{display: inline-block;
+            background-color:#fffbe8 ;
+            color: rgb(5, 59, 93) ; padding: 15px 30px;text-decoration: none;border-radius: 20px;
+            font-weight: bolder; transition: 0.3s;font-size: x-large;}
+.top-nav2 a:hover{transform: scale(1.2);box-shadow:0 10px 20px #b6b5ae;}
+            body {background-color: #fdfdfd; margin: 0;}
+.top-nav1{background-image: url(images/download\ \(2\).jpg);width:100%;height:100px; }
+.poto{display:flex;padding: 50px 5% ;gap: 15px; justify-content: center; align-items: stretch;box-sizing: border-box;width: 100%;}
+.para-text:hover{background-color: #dee3e3;padding: 25px 0%;flex: 1; max-width:800px ;box-shadow:0 10px 20px  #b6b5ae;transform: scale(1.2);
+    direction: rtl;border-radius: 10px;}
+.para-text{background-color: #dee3e3;padding: 25px 0%;flex: 1; max-width:800px ;transition: 0.2s;
+    direction: rtl;border-radius: 10px;}
+.spn{font-size: x-large;padding: 5%;gap: 15px;}
+.para-text pre{white-space: pre-wrap;word-break: break-word;font-size: larger;padding: 5%;}
+.form-box{justify-items: center;align-items: center;background-color: #dee3e3;display: list-item;margin: 50px auto;
+    width: 80%;max-width: 500px;border: 3px solid #fdfdfd ;border-radius: 20px;padding: 15px;box-shadow: #b6b5ae;}
+.form-div{justify-items: center;align-items: center;padding: 15px;}
+.form-input{border-radius: 10px;justify-items: center;align-items: center;padding: 10px;}}
+html, body { height: 100%; margin: 0;}
+body { display: flex;flex-direction: column;min-height: 100vh; background-color: #ddddcf;}
+footer{background-image: url(images/download\ \(2\).jpg);color: #5e622c;width: 100%;text-align: center;padding:25px 0;margin-top: auto; }
+@media screen and(max-width:600px;) {
+    .form-box,.contact-box{width: 95%;}
+    table {width: 100%;
+            display: block;overflow: auto;}}
